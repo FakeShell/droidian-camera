@@ -5,7 +5,8 @@ Maintainer: Erik Inkinen <erik.inkinen@gmail.com>
             Alexander Rutz <alex@familyrutz.com>
             Joaquin Philco <joaquinphilco@gmail.com>
 Priority: optional
-Build-Depends: cmake,
+Build-Depends: debhelper-compat (= 13),
+               cmake,
                qtbase5-dev,
                qtdeclarative5-dev,
                libqt5multimedia5-plugins,
@@ -16,8 +17,8 @@ Build-Depends: cmake,
                pkgconf,
                libzxing-dev,
                libexiv2-dev,
-               libglib2.0-dev
-Standards-Version: 4.5.1
+               libglib2.0-dev,
+Standards-Version: 4.7.0
 
 Package: furios-camera
 Architecture: any
